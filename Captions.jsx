@@ -9,7 +9,7 @@
         w.orientation="column";w.alignChildren=["fill","top"];w.margins=6;
         w.add("statictext",undefined,"Write text – blank line = new marker:");
         w.textInput=w.add("edittext",undefined,"",{multiline:true,scrolling:true});
-        w.textInput.preferredSize=[250,400];
+        w.textInput.preferredSize=[250,450];
         var g=w.add("group");w.applyBtn=g.add("button",undefined,"Apply");
         w.closeBtn=g.add("button",undefined,"Close");
         w.closeBtn.onClick=function(){w.close();};
